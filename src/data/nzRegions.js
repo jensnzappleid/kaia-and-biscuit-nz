@@ -9,13 +9,13 @@ export const nzRegions = [
     id: 'northland',
     photo: img('photo-1655475783893-f636c2c54d9d'),
     cityPhotos: [
-      { city: 'Whangārei', url: img('photo-1506431725520-a03af73747c0'), caption: 'Whangārei harbour' },
-      { city: 'Kerikeri', url: img('photo-1772215842204-3e5838af499c'), caption: 'Kerikeri countryside' },
+      { city: 'Whangārei', url: img('photo-1632897864688-05076cef9a26'), caption: 'Whangārei Falls' },
+      { city: 'Kerikeri', url: img('photo-1550500880-d31e0e9eeb83'), caption: 'Rainbow Falls, Kerikeri' },
       { city: 'Paihia', url: img('photo-1695633213155-aeeff181c343'), caption: 'Paihia, Bay of Islands' },
     ],
     famousPhotos: [
       { item: 'Cape Reinga', url: img('photo-1655475783893-f636c2c54d9d'), caption: 'Cape Reinga lighthouse' },
-      { item: 'Treaty of Waitangi', url: img('photo-1686941224638-5aaff456aa32'), caption: 'Bay of Islands, Waitangi' },
+      { item: 'Treaty of Waitangi', url: img('photo-1593210563043-6bec3f4bebee'), caption: 'Bay of Islands, Waitangi' },
       { item: 'Kauri trees', url: img('photo-1627685123750-49395e25a819'), caption: 'Tāne Mahuta, ancient kauri tree' },
     ],
     color: '#FF6B9D',
@@ -28,7 +28,7 @@ export const nzRegions = [
     ],
     famousPhotos: [
       { item: 'Sky Tower', url: img('photo-1741786325727-5ca6bd389030'), caption: 'Auckland city at dusk' },
-      { item: 'Volcanoes', url: img('photo-1541479562354-3352d972f4df'), caption: 'Rangitoto Island' },
+      { item: 'Volcanoes', url: img('photo-1637598552088-21df7b3afdaf'), caption: 'Rangitoto Island' },
       { item: 'Harbour', url: img('photo-1743113488160-e7000f015ead'), caption: 'Waitematā Harbour' },
     ],
     color: '#C084FC',
@@ -38,7 +38,7 @@ export const nzRegions = [
     photo: img('photo-1644021267335-dd6ec911687d'),
     cityPhotos: [
       { city: 'Hamilton', url: img('photo-1612409668817-6a3b0555b1fa'), caption: 'Hamilton Gardens' },
-      { city: 'Cambridge', url: img('photo-1687858486364-2db05b8b6f26'), caption: 'Lake Te Koo Utu, Cambridge' },
+      { city: 'Cambridge', url: img('photo-1767953368777-768fd70cf680'), caption: 'Waikato countryside, Cambridge' },
     ],
     famousPhotos: [
       { item: 'Hobbiton', url: img('photo-1508924379194-91ff8ad10091'), caption: 'Hobbiton movie set' },
@@ -79,11 +79,11 @@ export const nzRegions = [
     id: 'hawkes-bay',
     photo: img('photo-1741942607409-ebe998dd0406'),
     cityPhotos: [
-      { city: 'Napier', url: img('photo-1624598804860-8d1f5d271623'), caption: 'Art Deco Napier' },
+      { city: 'Napier', url: img('photo-1574326658510-1161e695ef27'), caption: 'Art Deco fountain, Napier' },
       { city: 'Hastings', url: img('photo-1560493676-04071c5f467b'), caption: 'Hastings vineyards' },
     ],
     famousPhotos: [
-      { item: 'Art Deco', url: img('photo-1624598804860-8d1f5d271623'), caption: 'Art Deco architecture' },
+      { item: 'Art Deco', url: img('photo-1574326658510-1161e695ef27'), caption: 'Art Deco architecture, Napier' },
       { item: 'Vineyards', url: img('photo-1560493676-04071c5f467b'), caption: 'Hawke\'s Bay wine country' },
       { item: 'Cape Kidnappers', url: img('photo-1741942607409-ebe998dd0406'), caption: 'Cape Kidnappers' },
     ],
@@ -106,11 +106,11 @@ export const nzRegions = [
     id: 'manawatu-whanganui',
     photo: img('photo-1603571929558-2ddd39e08ea2'),
     cityPhotos: [
-      { city: 'Palmerston North', url: img('photo-1720075499597-5d0b66ccd607'), caption: 'Palmerston North nature' },
+      { city: 'Palmerston North', url: img('photo-1584328948580-628f55a7d515'), caption: 'Palmerston North architecture' },
       { city: 'Whanganui', url: img('photo-1587895858518-5fbc2b3cf94c'), caption: 'Whanganui city view' },
     ],
     famousPhotos: [
-      { item: 'Whanganui River', url: img('photo-1667098506369-ae98a63e26c0'), caption: 'Whanganui River at night' },
+      { item: 'Whanganui River', url: img('photo-1587895858518-5fbc2b3cf94c'), caption: 'Whanganui city and river' },
       { item: 'Massey University', url: img('photo-1561957618-891468b3f478'), caption: 'Massey University campus' },
     ],
     color: '#A78BFA',
@@ -150,7 +150,7 @@ export const nzRegions = [
     famousPhotos: [
       { item: 'Centre of NZ', url: img('photo-1589446482864-4623c4301397'), caption: 'Cable Bay, Nelson' },
       { item: 'Abel Tasman NP', url: img('photo-1707077715672-f1966f9cdf80'), caption: 'Abel Tasman beach' },
-      { item: 'Arts & crafts', url: img('photo-1451337516015-6b6e9a44a8a3'), caption: 'Nelson artisan pottery' },
+      { item: 'Arts & crafts', url: img('photo-1538109622777-6c99f03bf6fd'), caption: 'Aerial view of Nelson' },
     ],
     color: '#FCD34D',
   },
@@ -218,7 +218,7 @@ export const nzRegions = [
     ],
     famousPhotos: [
       { item: 'Milford Sound', url: img('photo-1523819088009-c3ecf1e34000'), caption: 'Milford Sound' },
-      { item: 'Fiordland', url: img('photo-1595125990263-bedff96361a6'), caption: 'Fiordland mountains' },
+      { item: 'Fiordland', url: img('photo-1688507438547-ae8b1e87a902'), caption: 'Fiordland mountains' },
       { item: 'Stewart Island', url: img('photo-1705591892782-2d022294c7f0'), caption: 'Stewart Island seabird' },
     ],
     color: '#6EE7B7',
