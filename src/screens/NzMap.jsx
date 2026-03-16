@@ -390,6 +390,10 @@ export default function NzMap({ onBack }) {
                     style={{ fontSize: isSmall ? 8 : 10, fontWeight: 800, fill: (isPassed || isRead) ? '#fff' : colors.textPrimary, fontFamily: "'Nunito', sans-serif" }}>
                     {ch.chapter}
                   </text>
+                  <text x={pos.x} y={pos.y + r + 12} textAnchor="middle"
+                    style={{ fontSize: isSmall ? 7 : 9, fontWeight: 700, fill: colors.textPrimary, fontFamily: "'Nunito', sans-serif" }}>
+                    {ch.regionLabel}
+                  </text>
                 </g>
               );
             })}
